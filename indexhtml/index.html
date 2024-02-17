@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e codificador</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="imagem/zeus.png" type="image/x-icon">
+</head>
+<body>
+     <main class="main container">
+         <header class="cabecalho">
+           <img src="imagem/zeus.png" alt="zeus.png">
+           <h1>Zeus codificador</h1>
+         </header>
+         <div class="container-input">
+         <div class="input">
+            <textarea  id="input-texto" placeholder="Digite seu texto aqui"></textarea>
+            <p>ATENÇÃO: Apenas letras maiusculas e sem acento</p>
+        </div>
+
+
+         <div id="output">
+            <img src="imagem/zeus.png" alt="zeus.png" height="330px" width="400px">
+            <h2>Sua mensagem aparecerá aqui!</h2>
+            <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+         </div>
+        </div>
+
+        
+         <div class="buttons">
+             <div class="container-btn">
+                <button onclick="criptografar()" class="container-btn">Criptografar</button>
+                <button onclick="descriptografar()" class="container-btn">Descriptografar</button>
+             </div>
+            
+         </div>
+     </main>
+
+     <footer class="rodape">
+        <div class="icons">
+        <a href="https://www.instagram.com/diogomacario_/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://github.com/diogomacario21"><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+    <strong>Desenvolvido por:</strong> Diogo Macario
+    <br />
+     </footer>
+
+
+     <script src="interacao/script.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
