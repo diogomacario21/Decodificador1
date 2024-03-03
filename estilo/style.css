@@ -3,7 +3,7 @@
 :root{
     --corprincipal: #242428;
     --corsegundaria:#858f5a;
-    --cortitulo:#6e6f69;
+    --cortitulo:#050504;
 }
 
 body{
@@ -66,7 +66,7 @@ body{
     flex-direction: column;
     border: 3px solid var(--cortitulo);
     border-radius: 20px;
-    color: var(--cortitulo);
+    color: black;
     width: 350px;
     height: 400px;
     margin-right: 3%;
@@ -75,13 +75,14 @@ body{
 #output h2{
     text-align: center;
     font-size: 25px;
-    color: var(--corprincipal);
+    color: black;
 }
 
 #output span{
     font-size: 20px;
     text-align: center;
     border-radius: 2opx;
+    color: black;
 }
 
 #output img{
